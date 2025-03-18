@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text</title>
+    <style>
+        .qqq {
+            text-align: justify;
+            width: 300px;
+        }
+        .eee {
+            text-align: right;
+        }
+        .b{
+            font-weight: bold;
+        }
+        .f{
+            font-style: italic;
+            
+        }
+        .size{
+            font-size: 40px;
+        }
+        .type{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .interval p{
+            font-size: 20px;
+	        line-height: 50px;
+	        text-align: justify;
+	        width: 400px;
+
+        }
+    </style>
+</head>
+<body>
+    <h1>Работа с текстом</h1>
+    <h2>абзацы</h2>
+    <p>обозначаются буквой "p"</p>
+    <p>
+        This is a paragraph 1.
+    </p>
+    <p>
+        This is a paragraph 2.
+    </p>
+    <p>
+        This is a paragraph 3.
+    </p>
+
+
+    <h2>заголовки</h2>
+    <p>h1,h2,h3 и тд</p>
+    <h2>Heading h2</h2>
+    <h3>Heading h3</h3>
+    <h4>Heading h4</h4>
+    <h5>Heading h5</h5>
+    <h6>Heading h6</h6>
+
+
+    <h2>Выделение текста жирным</h2>
+    <p>обозначается символом "b"</p>
+    <p>
+        This is regular text and this is 
+            <b>bold</b> text. 
+    </p>
+
+
+    <h2>Выделение текста курсивом</h2>
+    <p>обозначается буквой "i"</p>
+    <p>
+        This is regular text, and this is 
+            <i>italic</i> text. 
+    </p>
+    <h2>неупорядоченные списки</h2>
+    <p>обозначаются тегом "ul"</p>
+    <ul>
+        <li>text</li>
+        <li>text</li>
+        <li>text</li>
+        <li>text</li>
+        <li>text</li>
+    </ul>
+    <h2>упорядоченные списки</h2>
+    <p>обозначаются тегом "ol"</p>
+    <ol>
+        <li>text</li>
+        <li>text</li>
+        <li>text</li>
+        <li>text</li>
+        <li>text</li>
+    </ol>
+    <h2>выравнивание текста</h2>
+
+    <p>выравнивание текста по правому краю(по левому краю и по центру соответственно )
+        p {
+            text-align: right;
+        }
+        
+    </p>
+    <div class="eee">
+        <p>
+            bebebe bbububuowudfncwfenc
+        </p>
+    </div>
+    <p>
+        выравнивание текста с двух сторон одновременно
+        p {
+            text-align: justify;
+            width: 300px;
+        }
+    </p>
+    <div class="qqq">
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elitorire aenean a dapibus magna, ac interdum nisl. Suspendisse egetil fringilla nibh, eu commodo arcu. Donec lacinia tempor velite sed tincidunt. Aliquam porttitor nulla purus, vel vulputater ipsum faucibus sed. Phasellus sodales, lorem vel cursus vehi ante purus lacini dui, interdum fringilla massa eros ut duir.
+        </p>
+    </div>
+    <h2>жирность текста </h2>
+    <p>
+        h2 {
+            font-weight: normal;
+        }
+        p {
+            font-weight: bold;
+        }
+    </p>
+    <div class="b">
+        This is a paragraph with text.
+ 
+    </div>
+    <div class="f">
+    <h2>
+        Текст курсив
+    </h2>
+    <p>
+        p {
+            font-style: italic;
+        }
+    </p>
+    </div>
+    <div class="size">
+        <h2>Размер шрифта</h2>
+        <p>p {
+            font-size: 30px;
+        }
+    </p>
+    </div>
+    <div class="type">
+        <h2>
+            Тип шрифта 
+            <p>
+                p {
+                    font-family: Arial;
+                }
+            </p>
+        </h2>
+    </div>
+    <div class="interval">
+        <h2>
+            Межстрочный интервал
+        </h2>
+        <p>p {
+            font-size: 20px;}</p>
+            <p>
+                sed tincidunt. Aliquam porttitor nulla purus, vel vulputater ipsum faucibus sed. Phasellus sodales, lorem vel cursus vehi ante purus lacini dui, interdum fringilla massa eros ut duir.
+            </p>
+    </div>
+    <h1>Эффекты текста в CSS</h1>
+    <p>Нижнее подчервивание 
+        p {
+            text-decoration: underline;
+        }
+        
+    </p>
+    <p>
+        Верхнее подчеркивание
+        p {
+            text-decoration: overline;
+        }
+    </p>
+    <p>Перечеркивание
+        p {
+            text-decoration: line-through;
+        }
+    </p>
+    <p>Отмена эффеков ждя текста
+        <a href="">link</a>
+        a {
+            text-decoration: none;
+        }
+        
+    </p>
+
+    
+    
+</body>
+</html>
